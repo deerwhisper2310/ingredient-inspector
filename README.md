@@ -39,13 +39,13 @@ Make sure you have the following installed on your machine:
 
 ### **Installation**
 
-Clone the repository to your local machine:git clone https://github.com/deerwhisper2310/ingredient-inspector.git
+Clone the repository to your local machine: git clone https://github.com/deerwhisper2310/ingredient-inspector.git
 
-Navigate into the project directory:cd ingredient-inspector
+Navigate into the project directory: cd ingredient-inspector
 
-Install the necessary NPM packages:npm install
+Install the necessary NPM packages: npm install
 
-Start the local development server:npm start
+Start the local development server: npm start
 
 The application will automatically open in your web browser at http://localhost:3000.
 
