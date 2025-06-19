@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+**Ingredient Inspector**
+========================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple browser extension to check food ingredient lists for items you want to avoid. Just paste the ingredients, select your filters, and instantly see what's inside.
 
-## Available Scripts
+**✨ Features**
+--------------
 
-In the project directory, you can run:
+*   **Manual Ingredient Pasting:** Directly paste any ingredient list for immediate analysis.
+    
+*   **Customizable Filters:** Easily toggle filters for common concerns like Seed Oils, Artificial Colors, Preservatives, and more.
+    
+*   **Privacy First:** No sign-up required. All analysis happens directly in your browser. Your data is never sent to a server.
+    
+*   **Persistent Settings:** Your filter preferences are automatically saved in your browser's local storage, so they'll be there the next time you visit.
+    
 
-### `npm start`
+**🛠️ Tech Stack**
+------------------
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*   **React:** A modern JavaScript library for building user interfaces.
+    
+*   **Tailwind CSS:** A utility-first CSS framework for rapid styling.
+    
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**🚀 Getting Started**
+----------------------
 
-### `npm test`
+To get a local copy up and running, follow these simple steps.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Prerequisites**
 
-### `npm run build`
+Make sure you have the following installed on your machine:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*   [Node.js](https://nodejs.org/) (which includes npm)
+    
+*   [Git](https://git-scm.com/)
+    
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Installation**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the repository to your local machine:git clone https://github.com/deerwhisper2310/ingredient-inspector.git
 
-### `npm run eject`
+Navigate into the project directory:cd ingredient-inspector
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Install the necessary NPM packages:npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start the local development server:npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The application will automatically open in your web browser at http://localhost:3000.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**📖 How to Use**
+-----------------
 
-## Learn More
+1.  Find an ingredient list you want to analyze.
+    
+2.  Copy and paste the list into the text area.
+    
+3.  Select the categories you want to flag using the filter toggles.
+    
+4.  Click the "Inspect Ingredients" button.
+    
+5.  View the flagged ingredients in the results section below.
+    
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**🤝 Contributing**
+-------------------
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Any contributions are welcome and appreciated!
